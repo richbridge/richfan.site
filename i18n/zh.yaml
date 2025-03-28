@@ -126,7 +126,7 @@
 - id: navbarinfo_github_download
   translation: 下载
 - id: navbarinfo_github_issue
-  translation: 报告问题
+  translation: 反馈问题
 - id: navbarinfo_github_fork
   translation: Fork
 # Comma-separated labels associated with the keyboard keys of the shortcut
