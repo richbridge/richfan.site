@@ -1,0 +1,15 @@
+# serverless.yml
+
+component: website
+name: shadocs
+app: shadocs
+stage: dev
+
+inputs:
+   src:
+     src: ./public
+     index: index.html
+     error: index.html
+   region: ap-shanghai
+   bucketName: shadocs-1255529567
+   protocol: https

@@ -1,0 +1,118 @@
+baseURL                 = "https://richfan.site"
+defaultContentLanguage = "zh"
+languageCode            = 'zh'
+title                   = "樊刹-学习心得分享"
+theme                   = 'shadocs'
+themesdir               = "themes"
+copyright              = "The MIT License (MIT) Copyright © 2022 RichFan"
+enableEmoji            = false
+enableGitInfo          = false
+metaDataFormat         = "yaml"
+publishDir             = "public"
+
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[module]
+  [[module.imports]]
+    path = 'github.com/jgazeau/shadocs'
+  [module.hugoVersion]
+    extended = true
+    min = '0.145.0'
+    max = ''
+  [[module.mounts]]
+    source = 'asyncapi'
+    target = 'static/asyncapi'
+  [[module.mounts]]
+    source = 'openapi'
+    target = 'static/openapi'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    ordered    = false
+    startLevel = 1
+    endLevel   = 6
+  [markup.goldmark.renderer]
+    unsafe = false
+
+[Languages]
+  [Languages.zh]
+    contentDir   = "content/zh"
+    title        = "樊刹 - 学习心得分享"
+    weight       = 1
+    languageName = "简体中文"
+
+  [Languages.en]
+    contentDir   = "content/en"
+    title        = "Fan Temple - Learn And Share"
+    weight       = 2
+    languageName = "English"
+
+#
+# Specific configuration
+#
+[params]
+  logo                    = "https://s2.loli.net/2025/03/28/W1un7SNJaT2UCA9.png"
+  logoTouch               = "https://s2.loli.net/2025/03/28/W1un7SNJaT2UCA9.png"
+  image404                = "images/404.gif"
+  favicon                 = "https://s2.loli.net/2025/03/28/W1un7SNJaT2UCA9.png"
+  faviconmd               = "![Favicon](https://s2.loli.net/2025/03/28/W1un7SNJaT2UCA9.png)"
+  homeLayout              = "onboarding"
+  siteContentOrder        = "weight"
+  # toc                   = true
+  # globalBanner          = true
+  currentVersion          = "latest"
+  latestVersionUrl        = "https://richfan.site/"
+  # enforceRefrelLinks    = true
+  [params.navbar.shortcuts]
+    [params.navbar.shortcuts.example]
+      keys     = ["Shift","1"]
+      function = "scExample"
+  [[params.navbar.versions]]
+    name = 'latest'
+    url  = 'https://richfan.site/'
+  [[params.navbar.versions]]
+    name = 'deprecated version'
+    url  = 'https://jgazeau.github.io/shadocs/404.html'
+  [params.taxonomies]
+    [params.taxonomies.categories]
+      icon = "fa-solid fa-table-cells"
+    [params.taxonomies.tags]
+      icon = "fa-solid fa-tag"
+  [params.includes]
+    jsModules = [
+        "js/theme/modules/const.js",
+        "js/theme/modules/helpers.js",
+        "js/theme/modules/helpersGlobal.js",
+        "js/theme/init.js",
+        "js/theme/navbar.js",
+        "js/theme/print.js",
+        "js/theme/qrcode.js",
+        "js/theme/search.js",
+        "js/theme/shortcuts.js",
+        "js/theme/sidebar.js",
+        "js/theme/toc.js",
+        "js/external/overlay-scrollbars/overlayscrollbars.min.js"
+      ]
+    js        = [
+        "js/theme/browserCompatibility.js",
+        "js/external/flexsearch/flexsearch.bundle.min.js",
+        "js/external/qrious/qrious.min.js"  
+    ]
+    css       = [
+        "css/external/fontawesome.all.min.css"
+    ]
+    sass      = [
+        "sass/custom/custom_variables.sass"
+    ]
+  [params.versions]
+    hugo_min         = "[0.145.0](https://github.com/gohugoio/hugo/releases/tag/v0.145.0)"
+    bulma            = "[1.0.3](https://github.com/jgthms/bulma/releases/tag/1.0.3)"
+
