@@ -1,100 +1,100 @@
 ---
 weight: 0
-title: "Shadocs theme documentation"
-description: "Shadocs theme homepage"
-categories: ["Theme"]
+title: "梵刹 — 学习和分享"
+description: "梵刹 — 学习和分享"
+categories: ["主页"]
 ---
 
 {{< intro
-  introtitle="Theme onboarding"
+  introtitle="网站入门"
   id="introHome"
 >}}
 {
   "onexit": "manageDefaultCollapsibleSidebar();toggleExtendMenu(false);",
-  "oncomplete": "window.location.href = './theme';",
+  "oncomplete": "window.location.href = './';",
   "steps": [
     {
-      "title": "Shadocs theme",
-      "intro": "Welcome on the Shadocs theme documentation website.<br>Through this step by step onboarding guide, you will discover the several website features and therefore the theme ones.",
+      "title": "整体介绍",
+      "intro": "欢迎来到 Shadocs 主题文档网站。<br>通过此分步入职指南，您将发现几个网站功能，从而发现主题功能。",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
-      "title": "The logo",
-      "intro": "The website logo allows to go back to the homepage.",
+      "title": "网站徽标",
+      "intro": "网站徽标允许返回主页。",
       "element": "#globalLogo",
       "position": "right",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
-      "title": "The navigation bar",
-      "intro": "The horizontal bar located at the top of the screen, also called as the navigation bar, contains several features to ease navigation and user experience on the website. Depending on the window width an extend menu will appear allowing to display hidden navigation bar buttons.",
+      "title": "导航栏",
+      "intro": "位于屏幕顶部的水平栏，也称为导航栏，包含多项功能，可简化网站上的导航和用户体验。根据窗口宽度，将出现一个扩展菜单，允许显示隐藏的导航栏按钮。",
       "element": "#navbar",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
-      "title": "Search",
-      "intro": "The search function allows to search for content across the whole website.<br><i>NB: Advanced search using regular expressions not available.</i>",
+      "title": "搜索",
+      "intro": "搜索功能允许搜索整个网站的内容。<br><i>注意：使用正则表达式的高级搜索不可用。</i>",
       "element": "#search",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
-      "title": "Print",
-      "intro": "The print function allows to print the current page content.",
+      "title": "打印",
+      "intro": "打印功能允许打印当前页面内容。",
       "element": "getFirstVisibleElement('#printButton, #printButtonExtend');",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "QR code",
-      "intro": "The QR code function allows to display the QR code associated to the current page URL.",
+      "title": "二维码",
+      "intro": "二维码功能允许显示与当前页面网站关联的二维码。",
       "element": "getFirstVisibleElement('#qrCodeButton, #qrCodeButtonExtend');",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "Shortcuts",
-      "intro": "The shortcuts button provides access to the list of the shortcuts available on the website.",
+      "title": "快捷键",
+      "intro": "快捷键功能提供对网站上可用快捷键列表。",
       "element": "getFirstVisibleElement('#shortcutsInfo, #shortcutsInfoExtend');",
       "position": "left",
       "triggerexcept": ["nohover"],
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "Taxonomies",
-      "intro": "The taxonomies button provides access to the several taxonomies of the website.<br><i>NB: This button is only visible if at least one taxonomy exists.</i>",
+      "title": "分类",
+      "intro": "分类功能提供对网站的多个分类的访问。<br><i>注意：仅当至少存在一个分类时，此按钮才可见。</i>",
       "element": "getFirstVisibleElement('#taxonomiesSelector, #taxonomiesSelectorExtend');",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "Multilingual",
-      "intro": "The multilingual button provides access to the several translations of the current page.<br><i>NB: This button is only visible if a translation page exists for the current page.</i>",
+      "title": "多语言",
+      "intro": "多语言功能提供对当前页面的多个翻译的访问。<br><i>注意：仅当当前页面存在翻译页面时，此按钮才可见。</i>",
       "element": "getFirstVisibleElement('#langsSelector, #langsSelectorExtend');",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "Versioning",
-      "intro": "The versioning button provides other available versions of the website.",
+      "title": "版本",
+      "intro": "版本控制功能提供网站的其他可用版本。",
       "element": "getFirstVisibleElement('#versionsSelector, #versionsSelectorExtend');",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "About the website",
-      "intro": "The information button provides general information about the website.",
+      "title": "关于网站",
+      "intro": "关于网站功能提供有关网站的一般信息。",
       "element": "getFirstVisibleElement('#siteInfo, #siteInfoExtend');",
       "position": "left",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(true);"
     },{
-      "title": "Sidebar",
-      "intro": "The sidebar on the left of the screen allows to navigate through all the pages of the website.",
+      "title": "侧边栏",
+      "intro": "屏幕左侧的侧边栏允许浏览网站的所有页面。",
       "element": "#sidebarWrapper",
       "onbeforechange": "toggleSidebar(true,true);toggleExtendMenu(false);"
     },{
-      "title": "Sidebar",
-      "intro": "It is possible to collapse the sidebar to display main sections icons only.",
+      "title": "侧边栏",
+      "intro": "可以折叠侧边栏以仅显示主要部分图标。",
       "element": "#sidebarCollapse",
       "onbeforechange": "toggleSidebar(true,true);toggleExtendMenu(false);"
     },{
-      "title": "Sidebar",
-      "intro": "When the sidebar is collapsed, hover over a section to display the associated sub-menus (or click on touch devices).<br><i>NB: When the window is less than 1024 pixels wide, the sidebar is collapsed by default.</i>",
+      "title": "侧边栏",
+      "intro": "当侧边栏折叠时，将鼠标悬停在某个部分上以显示关联的子菜单（或单击触摸设备）。<br><i>注意：当窗口宽度小于 1024 像素时，侧边栏默认折叠。</i>",
       "element": "#sidebarUncollapse",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
       "title": "Shadocs theme",
-      "intro": "Congratulations !!<br>You can now browse the website to learn more about the theme.<br><i>Click on Done to continue the onboarding.</i>",
+      "intro": "祝贺！！<br>您现在可以浏览网站以了解有关该主题的更多信息。<br><i>单击 Done 以继续载入。</i>",
       "onbeforechange": "manageDefaultCollapsibleSidebar();toggleExtendMenu(false);"
     }
   ]

@@ -1,14 +1,16 @@
 baseURL                 = "https://richfan.site"
-defaultContentLanguage = "zh"
+defaultContentLanguage  = "zh"
 languageCode            = 'zh'
 title                   = "樊刹-学习心得分享"
 theme                   = 'shadocs'
 themesdir               = "themes"
-copyright              = "The MIT License (MIT) Copyright © 2022 RichFan"
-enableEmoji            = false
-enableGitInfo          = false
-metaDataFormat         = "yaml"
-publishDir             = "public"
+copyright               = "The MIT License (MIT) Copyright © 2022 RichFan"
+icp                     = "鲁ICP备2024106950号-1"
+gongan                  = "京公网安备11010502049321号"
+enableEmoji             = false
+enableGitInfo           = false
+metaDataFormat          = "yaml"
+publishDir              = "public"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
