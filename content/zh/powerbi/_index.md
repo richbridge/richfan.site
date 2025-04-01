@@ -6,4 +6,4 @@ titleIcon: "fa-solid fa-bitcoin-sign"
 categories: ["PowerBI"]
 ---
 
-{{< treeview display="tree" />}}
+{{< treeview display="tree" init="collapse" />}}

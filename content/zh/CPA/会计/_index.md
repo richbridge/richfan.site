@@ -6,5 +6,5 @@ titleIcon: "fa-solid fa-calculator"
 categories: ["CPA"]
 ---
 
-{{< treeview display="tree" />}}
+{{< treeview display="tree" init="collapse" />}}
 
