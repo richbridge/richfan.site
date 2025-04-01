@@ -1,13 +1,12 @@
 ---
 title: PowerBI案例
+titleIcon: "fa-solid fa-newspaper"
 page-layout: full
 toc: true
 comments: false
 author: richfan
 date: '2024-08-14'
-categories:
-  - 可视化
-abbrlink: 57127
+categories: PowerBI
 ---
 
 ## 地图

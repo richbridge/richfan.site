@@ -1,9 +1,9 @@
 ---
 title: PowerBI设置单位为万
+titleIcon: "fa-solid fa-newspaper"
 toc: true
 date: 2024-08-14
-categories:
-  - 可视化
+categories: PowerBI
 ---
 
 ## 方法一：

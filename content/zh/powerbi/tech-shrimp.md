@@ -1,12 +1,8 @@
 ---
 title: 技术爬爬虾
-lang: zh
-page-layout: full
-toc: true
-author: richfan
+titleIcon: "fa-solid fa-newspaper"
 date: '2024-08-26'
-categories:
-  - 技巧
+categories: 技巧
 ---
 
 我是<b>技术爬爬虾</b>，分享好玩实用软件DIY的科技博主

@@ -1,13 +1,12 @@
 ---
 title: PowerBI工具
 page-layout: full
+titleIcon: "fa-solid fa-newspaper"
 toc: true
 comments: false
 author: richfan
 date: '2024-08-14'
-categories:
-  - 可视化
-abbrlink: 41509
+categories: PowerBI
 ---
 
 ## SVG

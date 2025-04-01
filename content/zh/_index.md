@@ -2,7 +2,6 @@
 weight: 0
 title: "梵刹 — 学习和分享"
 description: "梵刹 — 学习和分享"
-categories: ["主页"]
 ---
 
 {{< intro

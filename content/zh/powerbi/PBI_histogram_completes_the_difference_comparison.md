@@ -1,13 +1,12 @@
 ---
 title: PowerBI柱状图完成差异对比
+titleIcon: "fa-solid fa-newspaper"
 page-layout: full
 toc: true
 comments: false
 author: richfan
 date: '2024-08-14'
-categories:
-  - 可视化
-abbrlink: 59709
+categories: PowerBI
 ---
 
 在PowerBI里面，默认自带的原生视觉对象，是可以自由设置功能最丰富了。比如今天要演示的柱状图，就可以通过对视觉对象误差线的设置，来实现同比变化值突出显示的效果。不仅可以标记变化长度，还能够使用颜色标记增长为绿色，下降为红色，同时标记出增长变化率。这些都是在同一个视觉对象上完成的，效果如下↓

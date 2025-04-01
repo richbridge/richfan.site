@@ -2,8 +2,8 @@
 weight: 2000
 title: "PowerBI"
 description: "How to use the theme?"
-titleIcon: "fa-solid fa-user-gear"
+titleIcon: "fa-solid fa-bitcoin-sign"
 categories: ["PowerBI"]
 ---
 
-{{< treeview />}}
+{{< treeview display="tree" />}}
