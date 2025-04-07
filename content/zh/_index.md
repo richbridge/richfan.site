@@ -14,7 +14,7 @@ description: "梵刹 — 学习和分享"
   "steps": [
     {
       "title": "整体介绍",
-      "intro": "欢迎来到 Shadocs 主题文档网站。<br>通过此分步入职指南，您将发现几个网站功能，从而发现主题功能。",
+      "intro": "欢迎来到梵刹。<br>通过本分步指南，您将发现几个网站功能，从而熟练使用网站。",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
       "title": "网站徽标",
